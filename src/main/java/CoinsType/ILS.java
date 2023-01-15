@@ -1,5 +1,7 @@
-public class USD extends Coin{
-    private final double value=3.52;
+package CoinsType;
+
+public class ILS extends Coin {
+    private final double value=0.28;
     @Override
     public double getValue(){
         return value;
@@ -10,6 +12,6 @@ public class USD extends Coin{
     }
     @Override
     public String getSimbol(){
-        return "$";
+        return "₪";
     }
 }

@@ -1,3 +1,5 @@
+import CoinsType.Coin;
+
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
@@ -87,6 +89,7 @@ public class Main {
         File file=new File(filePath);
         Desktop desktop=Desktop.getDesktop();
         for (String i:resultsList
+
         ) {
             System.out.println(i);
             try {
